@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="appcompat-v7-19.1.0">
+    <archive path="/Users/rikardeide/Development/Phishlight/Phishlight/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar" />
+    <archive path="/Users/rikardeide/Development/Phishlight/Phishlight/build/exploded-aar/com.android.support/appcompat-v7/19.1.0/res" />
+  </library>
+  <library name="support-v4-19.1.0">
+    <archive path="/Users/rikardeide/Development/android-sdk-macosx/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar" />
+  </library>
+</eclipse-userlibraries>
+
