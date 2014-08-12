@@ -44,3 +44,19 @@ Click next and agree to the terms and conditions before you install the software
 When all is installed, restart Eclipse. 
 
 You are now ready to clone from Github. Because I have yet to try the JGit plugin myself, I don't know the exact specifics here. Will fill in as soon as I figure out.
+
+
+When all is installed and you have cloned from Github, open Eclipse and go:
+
+	File > Import...
+
+In the search field, type *'Gradle'* and push next. In the Import Gradle Project view, click browse and navigate to the root folder of the project cloned from Git. When this is selected, click
+
+	Build Model
+	
+Eclipse will then work for a bit and import the project as well as download dependencies. When this is done you're *all done!*.
+
+
+### Running
+
+Click 'Run' in Eclipse and it will start a virtual device. If you want to run on your own phone you connect it with a USB cable and click 'Run'
