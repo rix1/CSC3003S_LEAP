@@ -7,9 +7,12 @@ Private repo for the CSC3003S software development project.
 
 This should cover pretty much anything you need to set up the developer environment.
 
-  * [Java Development Kit 7+ (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+  * [Java Development Kit 7+ (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) **NB: Not version 8!**
   * [Eclipse](http://www.eclipse.org/downloads/), the "Eclipse IDE for Java Developers" is sufficient.
   * [Android SDK](http://developer.android.com/sdk/installing.html), you only need the SDK, not the ADT bundle, which includes Eclipse. Install API level 18 and 19 (For Android 4.3 and 4.4.2) via the SDK Manager! See step below on how to do it.
+
+
+**The following are downloaded and installed from Eclipse**
 
   * [JGit plugin to Eclipse](http://eclipse.org/egit/download/) Use this update site: http://download.eclipse.org/egit/updates
   * [Android Development Tools for Eclipse](http://developer.android.com/tools/sdk/eclipse-adt.html), aka ADT Plugin. Use this update site: https://dl-ssl.google.com/android/eclipse/
@@ -43,18 +46,39 @@ Click next and agree to the terms and conditions before you install the software
 
 When all is installed, restart Eclipse. 
 
-You are now ready to clone from Github. Because I have yet to try the JGit plugin myself, I don't know the exact specifics here. Will fill in as soon as I figure out.
+To show the Git plugin, go to the menu:
 
+	Window > Show View > Other...> Git (folder) > Git Repositories > OK
 
-When all is installed and you have cloned from Github, open Eclipse and go:
+In the now visible Git tab, click the link:
+
+	Clone a Git repository
+	
+In the location section, paste the following link in the URI field:
+
+	https://github.com/rix1/CSC3003S_LEAP.git
+
+The plugin will down autofill a couple of the fields. In the authentication section, write your own Github username and password and click *Next*. The branches will now load. Select *master* and click next. Change the directory to your preferred workspace, and leave everything else as it is. Hit 
+
+	Finish
+
+The plugin now downloads the source code from Github. When it is finished, go to:
 
 	File > Import...
 
-In the search field, type *'Gradle'* and push next. In the Import Gradle Project view, click browse and navigate to the root folder of the project cloned from Git. When this is selected, click
+In the search field, type *'Gradle'*, select 
+
+	Gradle Project
+
+and push *next*. In the Import Gradle Project view, click *Browse* and navigate to the root folder of the project cloned from Git. When this is selected, click
 
 	Build Model
 	
 Eclipse will then work for a bit and import the project as well as download dependencies. When this is done you're *all done!*.
+
+### Problems
+
+You might have to set your android environmental variable? 
 
 
 ### Running
