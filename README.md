@@ -7,19 +7,23 @@ Private repo for the CSC3003S software development project.
 
 This should cover pretty much anything you need to set up the developer environment.
 
-  * [Java Development Kit 7+ (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html) **NB: Not version 8!**
+  * [Java Development Kit 7+ (JDK)](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
   * [Eclipse](http://www.eclipse.org/downloads/), the "Eclipse IDE for Java Developers" is sufficient.
   * [Android SDK](http://developer.android.com/sdk/installing.html), you only need the SDK, not the ADT bundle, which includes Eclipse. Install API level 18 and 19 (For Android 4.3 and 4.4.2) via the SDK Manager! See step below on how to do it.
 
 
 **The following are downloaded and installed from Eclipse**
-
+	
   * [JGit plugin to Eclipse](http://eclipse.org/egit/download/) Use this update site: http://download.eclipse.org/egit/updates
   * [Android Development Tools for Eclipse](http://developer.android.com/tools/sdk/eclipse-adt.html), aka ADT Plugin. Use this update site: https://dl-ssl.google.com/android/eclipse/
   * [Eclipse Integration Gradle](https://github.com/spring-projects/eclipse-integration-gradle/), use this update site: http://dist.springsource.com/release/TOOLS/gradle
 
 
-### Set up project on Windows:
+### Intalling Android SDK
+
+If the installation cannot find the JDK, check out the following [answer](http://stackoverflow.com/a/9818884)
+
+### Set up Eclipse project on Windows:
 
 Once Java Development Kit, Eclipse and the Android SDK is downloaded, install JDK and Eclipse, and move the 'android-sdk-[some platform/version number]/' folder to a place where it can stay permanently and won't get in the way.
 
