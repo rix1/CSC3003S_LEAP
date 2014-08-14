@@ -39,6 +39,8 @@ public class MainActivity extends Activity {
         camera = Camera.open();
         final Camera.Parameters p = camera.getParameters();
 
+       // Added comment to test ASANA App
+
         toggle.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
